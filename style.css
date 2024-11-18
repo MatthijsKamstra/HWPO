@@ -1,0 +1,96 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+header,
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 15px;
+  border: 1px solid #ffd700;
+  /* Golden border */
+}
+
+header img {
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+
+h1 {
+  margin-top: 10px;
+  font-size: 1.8em;
+}
+
+h2 {
+  color: #ccc;
+  margin-top: 20px;
+  text-transform: uppercase;
+  /* Make titles uppercase */
+}
+
+.section {
+  background: #333;
+  color: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.description {
+  margin-top: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  margin: 10px 0;
+}
+
+footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+input {
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.day-selector button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.day-selector button:hover {
+  background-color: #888;
+}
+
+.highlight {
+  background-color: #ffa500;
+  color: #000;
+  font-weight: bold;
+}
